@@ -1,0 +1,1 @@
+# adaptivelayout2.gethub.io
