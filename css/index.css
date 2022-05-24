@@ -495,10 +495,7 @@ body {
 	background-image: url("../img/in.svg");
 }
 
-
 /* *----------нижняя часть страницы (конец)---------- */
-
-
 /* *----------адаптациы (начало)---------- */
 @media (max-width: 1140px) {
 	.get-started {
@@ -512,20 +509,20 @@ body {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.services-subtitle {
-		max-width: none;
-	}
-
-	.services-descr {
-		max-width: none;
-	}
-
 	.footer-middle {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
+	.services-subtitle {
+		max-width: none;
+	}
+
 	.footer-column:last-child::before {
 		display: none;
+	}
+
+	.services-descr {
+		max-width: none;
 	}
 }
 
@@ -542,14 +539,14 @@ body {
 		grid-template-columns: repeat(1, 1fr);
 	}
 
-	.hero-title {
-		font-size: 50px;
-		line-height: 65px;
-	}
-
 	.services {
 		padding-top: 50px;
 		padding-bottom: 50px;
+	}
+
+	.hero-title {
+		font-size: 50px;
+		line-height: 65px;
 	}
 
 	.footer-bottom {
@@ -562,13 +559,13 @@ body {
 		font-size: 20px;
 	}
 
-	.logo {
-		width: 65%;
-	}
-
 	.hero-title {
 		font-size: 45px;
 		line-height: 60px;
+	}
+
+	.logo {
+		width: 65%;
 	}
 
 	.services-list {
